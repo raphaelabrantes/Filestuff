@@ -28,27 +28,29 @@ void readcutf(char filename[], metadata * metainfo){
 }
 
 
-char * createfilename(char oldfilename[], uint64_t  cut, metadata * metainfo){
+char * createfilename(char oldfilename[], uint64_t  cut){
     char cutname[27],  * new_name, trans [] = "here/";
     snprintf(cutname, 27, ".cut-%" PRIu64 ".rtf", cut);
     new_name = (char *)calloc(strlen(oldfilename) + strlen(cutname) + 1, sizeof(char));
     strcat(new_name, trans);
     strcat(new_name, oldfilename);
     strcat(new_name, cutname);
-    addnode(new_name, metainfo);
     return new_name;
 
 }
 
 uint64_t writefile(const char fbuffer[], uint64_t cutsmade, char * filename, uint64_t until, metadata * metainfo){
     char * newbuff = (char *) calloc(until, sizeof(char));
+    char * hash;
     for(uint64_t i =0; i < until; i++){
         newbuff[i] = fbuffer[(cutsmade * CUTSIZE) + i];
     }
-    char * name = createfilename(filename, cutsmade, metainfo);
+    char * name = createfilename(filename, cutsmade);
     FILE * newfile = fopen(name, "wb");
     uint64_t wrote = fwrite(newbuff, 1, until, newfile);
     fclose(newfile);
+    hash = makehexhash(createhash(newbuff, wrote));
+    addnode(name, metainfo, hash);
     free(newbuff);
     return wrote;
 }
