@@ -3,5 +3,7 @@ project(Filestuff C)
 
 set(CMAKE_C_STANDARD 99)
 file(GLOB SOURCES include/*)
+find_package(OpenSSL REQUIRED)
 add_compile_options(-Wall -Wextra -pedantic -Werror)
 add_executable(Filestuff main.c ${SOURCES})
+target_link_libraries(Filestuff OpenSSL::SSL)
