@@ -5,7 +5,6 @@
 #define CUTSIZE 256000
 
 
-void readncompose(char filename []);
 
 int main() {
     metadata * metainfo = (metadata *) calloc(sizeof(metadata *), 1);
