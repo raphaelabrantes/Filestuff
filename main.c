@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include "include/cutnwrite.h"
 #include "include/metafile.h"
-
-#define CUTSIZE 256000
+#include "include/mergefiles.h"
 
 
 
@@ -11,6 +10,7 @@ int main() {
     readcutf("new.jpg", metainfo);
     writemetaf(metainfo);
     metadata * metainfo2 = (metadata *) calloc(sizeof(metadata *), 1);
+    freenodes(metainfo);
     readmetaf(metainfo2);
     return 0;
 }
