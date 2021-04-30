@@ -1,7 +1,6 @@
 #ifndef FILESTUFF_CUTNWRITE_H
 #define FILESTUFF_CUTNWRITE_H
 #include "metafile.h"
-#define CUTSIZE 256000
 
 void readcutf(char filename[], metadata * metainfo);
 char * createfilename(char oldfilename[], uint64_t cut);
