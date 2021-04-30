@@ -8,6 +8,11 @@
 #include <dirent.h>
 #include <openssl/evp.h>
 #define HASHSIZE 16
+#define MAXSIZE 12
+#define FILE_NAME_S 50
+#define HEX_HASH_S 34
+#define CUTSIZE 256000
+
 
 typedef struct filenodes{
     struct filenodes * next;
@@ -23,6 +28,7 @@ typedef struct metadatas{
 } metadata;
 
 filenode * getnode(uint64_t index, filenode * node);
+void freenodes(metadata * metainfo);
 void addnode(char new_name[] ,metadata * metainfo, char * hash);
 void writemetaf(metadata * metainfo);
 void readmetaf(metadata* metainfo);
