@@ -10,7 +10,7 @@ int main() {
     readcutf("new.jpg", metainfo);
     writemetaf(metainfo);
     metadata * metainfo2 = (metadata *) calloc(sizeof(metadata *), 1);
-    freenodes(metainfo);
     readmetaf(metainfo2);
+    mergefiles(metainfo2);
     return 0;
 }
