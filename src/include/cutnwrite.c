@@ -27,7 +27,7 @@ void readcutf(char filename[], metadata * metainfo){
 
 
 char * createfilename(char oldfilename[], uint64_t  cut){
-    char cutname[27],  * new_name, trans [] = "here/";
+    char cutname[27],  * new_name, trans [] = "cuts/";
     snprintf(cutname, 27, ".cut-%" PRIu64 ".rtf", cut);
     new_name = (char *)calloc(strlen(oldfilename) + strlen(cutname) + 1, sizeof(char));
     strcat(new_name, trans);
