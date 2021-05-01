@@ -22,3 +22,4 @@ compare:
 
 sonar:
 	build/build-wrapper-linux-x86-64 --out-dir build/ make build_run
+	sonar-scanner/bin/sonar-scanner
