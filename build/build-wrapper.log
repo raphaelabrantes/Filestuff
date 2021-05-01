@@ -1,227 +1,217 @@
-Sat May 01 18:44:18 2021: build-wrapper, version 6.20 (linux-x86)
-Sat May 01 18:44:18 2021: System name: Linux Nodename: otaku Release: 5.8.0-50-generic Version: #56~20.04.1-Ubuntu SMP Mon Apr 12 21:46:35 UTC 2021 Machine: x86_64
-Sat May 01 18:44:18 2021: socket path: /tmp/build-wrapper-socket.gpN596
-Sat May 01 18:44:18 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build/libinterceptor-i686.so
-Sat May 01 18:44:18 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build/libinterceptor-x86_64.so
-Sat May 01 18:44:18 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build/libinterceptor-haswell.so
-Sat May 01 18:44:18 2021: command executed as: <build/build-wrapper-linux-x86-64>
-Sat May 01 18:44:18 2021: command line received: <make build_run>
-Sat May 01 18:44:18 2021: env 0: <PATH=/home/godofall/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Sat May 01 18:44:18 2021: env 1: <LC_MEASUREMENT=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 2: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
-Sat May 01 18:44:18 2021: env 3: <INVOCATION_ID=f400d450d01749e3916c07d2255e69e2>
-Sat May 01 18:44:18 2021: env 4: <XMODIFIERS=@im=ibus>
-Sat May 01 18:44:18 2021: env 5: <LC_TELEPHONE=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 6: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Sat May 01 18:44:18 2021: env 7: <GDMSESSION=ubuntu>
-Sat May 01 18:44:18 2021: env 8: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Sat May 01 18:44:18 2021: env 9: <LC_TIME=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 10: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus>
-Sat May 01 18:44:18 2021: env 11: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Sat May 01 18:44:18 2021: env 12: <__INTELLIJ_COMMAND_HISTFILE__=/home/godofall/.cache/JetBrains/CLion2021.1/terminal/history/Filestuff-history8>
-Sat May 01 18:44:18 2021: env 13: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Sat May 01 18:44:18 2021: env 14: <JOURNAL_STREAM=8:55166>
-Sat May 01 18:44:18 2021: env 15: <SSH_AGENT_PID=2404>
-Sat May 01 18:44:18 2021: env 16: <DESKTOP_AUTOSTART_ID=10e73290de6667f147161988919177425700000024780016>
-Sat May 01 18:44:18 2021: env 17: <LC_PAPER=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 18: <SESSION_MANAGER=local/otaku:@/tmp/.ICE-unix/2478,unix/otaku:/tmp/.ICE-unix/2478>
-Sat May 01 18:44:18 2021: env 19: <USERNAME=godofall>
-Sat May 01 18:44:18 2021: env 20: <LOGNAME=godofall>
-Sat May 01 18:44:18 2021: env 21: <PWD=/home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: env 22: <MANAGERPID=2204>
-Sat May 01 18:44:18 2021: env 23: <IM_CONFIG_PHASE=1>
-Sat May 01 18:44:18 2021: env 24: <TOOLBOX_VERSION=1.20.8352>
-Sat May 01 18:44:18 2021: env 25: <SHELL=/usr/bin/zsh>
-Sat May 01 18:44:18 2021: env 26: <LC_ADDRESS=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 27: <GIO_LAUNCHED_DESKTOP_FILE=/home/godofall/.config/autostart/jetbrains-toolbox.desktop>
-Sat May 01 18:44:18 2021: env 28: <OLDPWD=/home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: env 29: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Sat May 01 18:44:18 2021: env 30: <GTK_MODULES=gail:atk-bridge>
-Sat May 01 18:44:18 2021: env 31: <TERM_SESSION_ID=a3f122c8-233f-4f69-9b0e-480b8923c4f1>
-Sat May 01 18:44:18 2021: env 32: <LC_CTYPE=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 33: <XDG_SESSION_DESKTOP=ubuntu>
-Sat May 01 18:44:18 2021: env 34: <SHLVL=1>
-Sat May 01 18:44:18 2021: env 35: <LC_IDENTIFICATION=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 36: <LC_MONETARY=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 37: <QT_IM_MODULE=ibus>
-Sat May 01 18:44:18 2021: env 38: <TERM=xterm-256color>
-Sat May 01 18:44:18 2021: env 39: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Sat May 01 18:44:18 2021: env 40: <LANG=en_US.UTF-8>
-Sat May 01 18:44:18 2021: env 41: <XDG_SESSION_TYPE=x11>
-Sat May 01 18:44:18 2021: env 42: <DISPLAY=:0>
-Sat May 01 18:44:18 2021: env 43: <LC_NAME=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 44: <XDG_SESSION_CLASS=user>
-Sat May 01 18:44:18 2021: env 45: <_=/home/godofall/CLionProjects/Filestuff/build/build-wrapper-linux-x86-64>
-Sat May 01 18:44:18 2021: env 46: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
-Sat May 01 18:44:18 2021: env 47: <DESKTOP_SESSION=ubuntu>
-Sat May 01 18:44:18 2021: env 48: <USER=godofall>
-Sat May 01 18:44:18 2021: env 49: <XDG_MENU_PREFIX=gnome->
-Sat May 01 18:44:18 2021: env 50: <GIO_LAUNCHED_DESKTOP_FILE_PID=2808>
-Sat May 01 18:44:18 2021: env 51: <QT_ACCESSIBILITY=1>
-Sat May 01 18:44:18 2021: env 52: <WINDOWPATH=2>
-Sat May 01 18:44:18 2021: env 53: <TERMINAL_EMULATOR=JetBrains-JediTerm>
-Sat May 01 18:44:18 2021: env 54: <LC_NUMERIC=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: env 55: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
-Sat May 01 18:44:18 2021: env 56: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Sat May 01 18:44:18 2021: env 57: <XDG_RUNTIME_DIR=/run/user/1000>
-Sat May 01 18:44:18 2021: env 58: <HOME=/home/godofall>
-Sat May 01 18:44:18 2021: env 59: <ZSH=/home/godofall/.oh-my-zsh>
-Sat May 01 18:44:18 2021: env 60: <PAGER=less>
-Sat May 01 18:44:18 2021: env 61: <LESS=-R>
-Sat May 01 18:44:18 2021: env 62: <LSCOLORS=Gxfxcxdxbxegedabagacad>
-Sat May 01 18:44:18 2021: env 63: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Sat May 01 18:44:18 2021: executing: <make build_run>
-Sat May 01 18:44:18 2021: initializing json file
-Sat May 01 18:44:18 2021: process created with pid: 12048
-Sat May 01 18:44:18 2021: parent pid: 12047
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </home/godofall/CLionProjects/Filestuff/build/build-wrapper-linux-x86-64>
-Sat May 01 18:44:18 2021: argv[0]: <build/build-wrapper-linux-x86-64>
-Sat May 01 18:44:18 2021: argv[1]: <-c>
-Sat May 01 18:44:18 2021: argv[2]: <>
-Sat May 01 18:44:18 2021: argv[3]: <make>
-Sat May 01 18:44:18 2021: argv[4]: <build_run>
-Sat May 01 18:44:18 2021: skipping process with pid: 12048
-Sat May 01 18:44:18 2021: process created with pid: 12049
-Sat May 01 18:44:18 2021: parent pid: 12048
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/make>
-Sat May 01 18:44:18 2021: argv[0]: <make>
-Sat May 01 18:44:18 2021: argv[1]: <build_run>
-Sat May 01 18:44:18 2021: skipping process with pid: 12049
-Sat May 01 18:44:18 2021: process created with pid: 12050
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/dash>
-Sat May 01 18:44:18 2021: argv[0]: </bin/sh>
-Sat May 01 18:44:18 2021: argv[1]: <-c>
-Sat May 01 18:44:18 2021: argv[2]: <find include/ -name "*.c" -o -name "*.h">
-Sat May 01 18:44:18 2021: skipping process with pid: 12050
-Sat May 01 18:44:18 2021: process created with pid: 12051
-Sat May 01 18:44:18 2021: parent pid: 12050
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/find>
-Sat May 01 18:44:18 2021: argv[0]: <find>
-Sat May 01 18:44:18 2021: argv[1]: <include/>
-Sat May 01 18:44:18 2021: argv[2]: <-name>
-Sat May 01 18:44:18 2021: argv[3]: <*.c>
-Sat May 01 18:44:18 2021: argv[4]: <-o>
-Sat May 01 18:44:18 2021: argv[5]: <-name>
-Sat May 01 18:44:18 2021: argv[6]: <*.h>
-Sat May 01 18:44:18 2021: skipping process with pid: 12051
-Sat May 01 18:44:18 2021: process created with pid: 12052
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/dash>
-Sat May 01 18:44:18 2021: argv[0]: </bin/sh>
-Sat May 01 18:44:18 2021: argv[1]: <-c>
-Sat May 01 18:44:18 2021: argv[2]: <rm -f cuts/* merge.jpg foto.jpg Filestuff meta.inf>
-Sat May 01 18:44:18 2021: skipping process with pid: 12052
-Sat May 01 18:44:18 2021: process created with pid: 12053
-Sat May 01 18:44:18 2021: parent pid: 12052
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/rm>
-Sat May 01 18:44:18 2021: argv[0]: <rm>
-Sat May 01 18:44:18 2021: argv[1]: <-f>
-Sat May 01 18:44:18 2021: argv[2]: <cuts/*>
-Sat May 01 18:44:18 2021: argv[3]: <merge.jpg>
-Sat May 01 18:44:18 2021: argv[4]: <foto.jpg>
-Sat May 01 18:44:18 2021: argv[5]: <Filestuff>
-Sat May 01 18:44:18 2021: argv[6]: <meta.inf>
-Sat May 01 18:44:18 2021: skipping process with pid: 12053
-Sat May 01 18:44:18 2021: process created with pid: 12054
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
-Sat May 01 18:44:18 2021: argv[0]: <gcc>
-Sat May 01 18:44:18 2021: argv[1]: <main.c>
-Sat May 01 18:44:18 2021: argv[2]: <include/cutnwrite.c>
-Sat May 01 18:44:18 2021: argv[3]: <include/metafile.c>
-Sat May 01 18:44:18 2021: argv[4]: <include/metafile.h>
-Sat May 01 18:44:18 2021: argv[5]: <include/mergefiles.c>
-Sat May 01 18:44:18 2021: argv[6]: <include/mergefiles.h>
-Sat May 01 18:44:18 2021: argv[7]: <include/cutnwrite.h>
-Sat May 01 18:44:18 2021: argv[8]: <-I>
-Sat May 01 18:44:18 2021: argv[9]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[10]: <-lssl>
-Sat May 01 18:44:18 2021: argv[11]: <-lcrypto>
-Sat May 01 18:44:18 2021: argv[12]: <-o>
-Sat May 01 18:44:18 2021: argv[13]: <Filestuff>
-Sat May 01 18:44:18 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.gpN596>
-Sat May 01 18:44:18 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/godofall/CLionProjects/Filestuff/build/libinterceptor-${PLATFORM}.so>
-Sat May 01 18:44:18 2021: envp[2]: <DESKTOP_SESSION=ubuntu>
-Sat May 01 18:44:18 2021: envp[3]: <XDG_SESSION_CLASS=user>
-Sat May 01 18:44:18 2021: envp[4]: <LC_CTYPE=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[5]: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
-Sat May 01 18:44:18 2021: envp[6]: <GDMSESSION=ubuntu>
-Sat May 01 18:44:18 2021: envp[7]: <XMODIFIERS=@im=ibus>
-Sat May 01 18:44:18 2021: envp[8]: <SHELL=/usr/bin/zsh>
-Sat May 01 18:44:18 2021: envp[9]: <JOURNAL_STREAM=8:55166>
-Sat May 01 18:44:18 2021: envp[10]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Sat May 01 18:44:18 2021: envp[11]: <IM_CONFIG_PHASE=1>
-Sat May 01 18:44:18 2021: envp[12]: <USERNAME=godofall>
-Sat May 01 18:44:18 2021: envp[13]: <TOOLBOX_VERSION=1.20.8352>
-Sat May 01 18:44:18 2021: envp[14]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Sat May 01 18:44:18 2021: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Sat May 01 18:44:18 2021: envp[16]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus>
-Sat May 01 18:44:18 2021: envp[17]: <_=/home/godofall/CLionProjects/Filestuff/build/build-wrapper-linux-x86-64>
-Sat May 01 18:44:18 2021: envp[18]: <MANAGERPID=2204>
-Sat May 01 18:44:18 2021: envp[19]: <LC_NAME=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[20]: <PATH=/home/godofall/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Sat May 01 18:44:18 2021: envp[21]: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
-Sat May 01 18:44:18 2021: envp[22]: <LSCOLORS=Gxfxcxdxbxegedabagacad>
-Sat May 01 18:44:18 2021: envp[23]: <SESSION_MANAGER=local/otaku:@/tmp/.ICE-unix/2478,unix/otaku:/tmp/.ICE-unix/2478>
-Sat May 01 18:44:18 2021: envp[24]: <XDG_RUNTIME_DIR=/run/user/1000>
-Sat May 01 18:44:18 2021: envp[25]: <XDG_MENU_PREFIX=gnome->
-Sat May 01 18:44:18 2021: envp[26]: <LC_NUMERIC=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[27]: <INVOCATION_ID=f400d450d01749e3916c07d2255e69e2>
-Sat May 01 18:44:18 2021: envp[28]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Sat May 01 18:44:18 2021: envp[29]: <XDG_SESSION_DESKTOP=ubuntu>
-Sat May 01 18:44:18 2021: envp[30]: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
-Sat May 01 18:44:18 2021: envp[31]: <GIO_LAUNCHED_DESKTOP_FILE_PID=2808>
-Sat May 01 18:44:18 2021: envp[32]: <DISPLAY=:0>
-Sat May 01 18:44:18 2021: envp[33]: <PWD=/home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: envp[34]: <SSH_AGENT_PID=2404>
-Sat May 01 18:44:18 2021: envp[35]: <GTK_MODULES=gail:atk-bridge>
-Sat May 01 18:44:18 2021: envp[36]: <HOME=/home/godofall>
-Sat May 01 18:44:18 2021: envp[37]: <TERMINAL_EMULATOR=JetBrains-JediTerm>
-Sat May 01 18:44:18 2021: envp[38]: <LOGNAME=godofall>
-Sat May 01 18:44:18 2021: envp[39]: <ZSH=/home/godofall/.oh-my-zsh>
-Sat May 01 18:44:18 2021: envp[40]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Sat May 01 18:44:18 2021: envp[41]: <LC_TIME=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[42]: <QT_IM_MODULE=ibus>
-Sat May 01 18:44:18 2021: envp[43]: <SHLVL=1>
-Sat May 01 18:44:18 2021: envp[44]: <XDG_SESSION_TYPE=x11>
-Sat May 01 18:44:18 2021: envp[45]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Sat May 01 18:44:18 2021: envp[46]: <USER=godofall>
-Sat May 01 18:44:18 2021: envp[47]: <LC_MONETARY=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[48]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Sat May 01 18:44:18 2021: envp[49]: <TERM_SESSION_ID=a3f122c8-233f-4f69-9b0e-480b8923c4f1>
-Sat May 01 18:44:18 2021: envp[50]: <LESS=-R>
-Sat May 01 18:44:18 2021: envp[51]: <LC_TELEPHONE=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[52]: <OLDPWD=/home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: envp[53]: <MAKEFLAGS=>
-Sat May 01 18:44:18 2021: envp[54]: <MFLAGS=>
-Sat May 01 18:44:18 2021: envp[55]: <MAKE_TERMOUT=/dev/pts/0>
-Sat May 01 18:44:18 2021: envp[56]: <LC_PAPER=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[57]: <QT_ACCESSIBILITY=1>
-Sat May 01 18:44:18 2021: envp[58]: <DESKTOP_AUTOSTART_ID=10e73290de6667f147161988919177425700000024780016>
-Sat May 01 18:44:18 2021: envp[59]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Sat May 01 18:44:18 2021: envp[60]: <__INTELLIJ_COMMAND_HISTFILE__=/home/godofall/.cache/JetBrains/CLion2021.1/terminal/history/Filestuff-history8>
-Sat May 01 18:44:18 2021: envp[61]: <LC_MEASUREMENT=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[62]: <PAGER=less>
-Sat May 01 18:44:18 2021: envp[63]: <WINDOWPATH=2>
-Sat May 01 18:44:18 2021: envp[64]: <LC_IDENTIFICATION=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[65]: <MAKE_TERMERR=/dev/pts/0>
-Sat May 01 18:44:18 2021: envp[66]: <LC_ADDRESS=pt_BR.UTF-8>
-Sat May 01 18:44:18 2021: envp[67]: <GIO_LAUNCHED_DESKTOP_FILE=/home/godofall/.config/autostart/jetbrains-toolbox.desktop>
-Sat May 01 18:44:18 2021: envp[68]: <LANG=en_US.UTF-8>
-Sat May 01 18:44:18 2021: envp[69]: <TERM=xterm-256color>
-Sat May 01 18:44:18 2021: envp[70]: <MAKELEVEL=1>
-Sat May 01 18:44:18 2021: envp[71]: <LD_PRELOAD=>
-Sat May 01 18:44:18 2021: Probing C compiler: /usr/bin/x86_64-linux-gnu-gcc-9 
-Sat May 01 18:44:18 2021: exit code: 0
-Sat May 01 18:44:18 2021: stdout:
+Sat May 01 19:28:09 2021: build-wrapper, version 6.20 (linux-x86)
+Sat May 01 19:28:09 2021: System name: Linux Nodename: otaku Release: 5.8.0-50-generic Version: #56~20.04.1-Ubuntu SMP Mon Apr 12 21:46:35 UTC 2021 Machine: x86_64
+Sat May 01 19:28:09 2021: socket path: /tmp/build-wrapper-socket.eODqzm
+Sat May 01 19:28:09 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build/libinterceptor-i686.so
+Sat May 01 19:28:09 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build/libinterceptor-x86_64.so
+Sat May 01 19:28:09 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build/libinterceptor-haswell.so
+Sat May 01 19:28:09 2021: command executed as: <build/build-wrapper-linux-x86-64>
+Sat May 01 19:28:09 2021: command line received: <make build_run>
+Sat May 01 19:28:09 2021: env 0: <DESKTOP_SESSION=ubuntu>
+Sat May 01 19:28:09 2021: env 1: <XDG_SESSION_CLASS=user>
+Sat May 01 19:28:09 2021: env 2: <LC_CTYPE=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 3: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Sat May 01 19:28:09 2021: env 4: <GDMSESSION=ubuntu>
+Sat May 01 19:28:09 2021: env 5: <XMODIFIERS=@im=ibus>
+Sat May 01 19:28:09 2021: env 6: <SHELL=/usr/bin/zsh>
+Sat May 01 19:28:09 2021: env 7: <JOURNAL_STREAM=8:55166>
+Sat May 01 19:28:09 2021: env 8: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Sat May 01 19:28:09 2021: env 9: <IM_CONFIG_PHASE=1>
+Sat May 01 19:28:09 2021: env 10: <USERNAME=godofall>
+Sat May 01 19:28:09 2021: env 11: <TOOLBOX_VERSION=1.20.8352>
+Sat May 01 19:28:09 2021: env 12: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Sat May 01 19:28:09 2021: env 13: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Sat May 01 19:28:09 2021: env 14: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus>
+Sat May 01 19:28:09 2021: env 15: <_=/usr/bin/dbus-update-activation-environment>
+Sat May 01 19:28:09 2021: env 16: <MANAGERPID=2204>
+Sat May 01 19:28:09 2021: env 17: <LC_NAME=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 18: <PATH=/home/godofall/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Sat May 01 19:28:09 2021: env 19: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Sat May 01 19:28:09 2021: env 20: <SESSION_MANAGER=local/otaku:@/tmp/.ICE-unix/2478,unix/otaku:/tmp/.ICE-unix/2478>
+Sat May 01 19:28:09 2021: env 21: <XDG_RUNTIME_DIR=/run/user/1000>
+Sat May 01 19:28:09 2021: env 22: <XDG_MENU_PREFIX=gnome->
+Sat May 01 19:28:09 2021: env 23: <LC_NUMERIC=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 24: <INVOCATION_ID=f400d450d01749e3916c07d2255e69e2>
+Sat May 01 19:28:09 2021: env 25: <XDG_SESSION_DESKTOP=ubuntu>
+Sat May 01 19:28:09 2021: env 26: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Sat May 01 19:28:09 2021: env 27: <GIO_LAUNCHED_DESKTOP_FILE_PID=2808>
+Sat May 01 19:28:09 2021: env 28: <DISPLAY=:0>
+Sat May 01 19:28:09 2021: env 29: <PWD=/home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin>
+Sat May 01 19:28:09 2021: env 30: <SSH_AGENT_PID=2404>
+Sat May 01 19:28:09 2021: env 31: <GTK_MODULES=gail:atk-bridge>
+Sat May 01 19:28:09 2021: env 32: <HOME=/home/godofall>
+Sat May 01 19:28:09 2021: env 33: <LOGNAME=godofall>
+Sat May 01 19:28:09 2021: env 34: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Sat May 01 19:28:09 2021: env 35: <LC_TIME=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 36: <QT_IM_MODULE=ibus>
+Sat May 01 19:28:09 2021: env 37: <SHLVL=0>
+Sat May 01 19:28:09 2021: env 38: <XDG_SESSION_TYPE=x11>
+Sat May 01 19:28:09 2021: env 39: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Sat May 01 19:28:09 2021: env 40: <USER=godofall>
+Sat May 01 19:28:09 2021: env 41: <LC_MONETARY=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 42: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Sat May 01 19:28:09 2021: env 43: <LC_TELEPHONE=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 44: <OLDPWD=/home/godofall>
+Sat May 01 19:28:09 2021: env 45: <MAKEFLAGS=>
+Sat May 01 19:28:09 2021: env 46: <MFLAGS=>
+Sat May 01 19:28:09 2021: env 47: <MAKE_TERMOUT=/dev/pts/1>
+Sat May 01 19:28:09 2021: env 48: <LC_PAPER=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 49: <QT_ACCESSIBILITY=1>
+Sat May 01 19:28:09 2021: env 50: <DESKTOP_AUTOSTART_ID=10e73290de6667f147161988919177425700000024780016>
+Sat May 01 19:28:09 2021: env 51: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Sat May 01 19:28:09 2021: env 52: <LC_MEASUREMENT=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 53: <WINDOWPATH=2>
+Sat May 01 19:28:09 2021: env 54: <LC_IDENTIFICATION=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 55: <MAKE_TERMERR=/dev/pts/2>
+Sat May 01 19:28:09 2021: env 56: <LC_ADDRESS=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: env 57: <GIO_LAUNCHED_DESKTOP_FILE=/home/godofall/.config/autostart/jetbrains-toolbox.desktop>
+Sat May 01 19:28:09 2021: env 58: <LANG=en_US.UTF-8>
+Sat May 01 19:28:09 2021: env 59: <MAKELEVEL=1>
+Sat May 01 19:28:09 2021: executing: <make build_run>
+Sat May 01 19:28:09 2021: initializing json file
+Sat May 01 19:28:09 2021: process created with pid: 14233
+Sat May 01 19:28:09 2021: parent pid: 14232
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </home/godofall/CLionProjects/Filestuff/build/build-wrapper-linux-x86-64>
+Sat May 01 19:28:09 2021: argv[0]: <build/build-wrapper-linux-x86-64>
+Sat May 01 19:28:09 2021: argv[1]: <-c>
+Sat May 01 19:28:09 2021: argv[2]: <>
+Sat May 01 19:28:09 2021: argv[3]: <make>
+Sat May 01 19:28:09 2021: argv[4]: <build_run>
+Sat May 01 19:28:09 2021: skipping process with pid: 14233
+Sat May 01 19:28:09 2021: process created with pid: 14234
+Sat May 01 19:28:09 2021: parent pid: 14233
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/make>
+Sat May 01 19:28:09 2021: argv[0]: <make>
+Sat May 01 19:28:09 2021: argv[1]: <build_run>
+Sat May 01 19:28:09 2021: skipping process with pid: 14234
+Sat May 01 19:28:09 2021: process created with pid: 14235
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/dash>
+Sat May 01 19:28:09 2021: argv[0]: </bin/sh>
+Sat May 01 19:28:09 2021: argv[1]: <-c>
+Sat May 01 19:28:09 2021: argv[2]: <find src/include/ -name "*.c" -o -name "*.h">
+Sat May 01 19:28:09 2021: skipping process with pid: 14235
+Sat May 01 19:28:09 2021: process created with pid: 14236
+Sat May 01 19:28:09 2021: parent pid: 14235
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/find>
+Sat May 01 19:28:09 2021: argv[0]: <find>
+Sat May 01 19:28:09 2021: argv[1]: <src/include/>
+Sat May 01 19:28:09 2021: argv[2]: <-name>
+Sat May 01 19:28:09 2021: argv[3]: <*.c>
+Sat May 01 19:28:09 2021: argv[4]: <-o>
+Sat May 01 19:28:09 2021: argv[5]: <-name>
+Sat May 01 19:28:09 2021: argv[6]: <*.h>
+Sat May 01 19:28:09 2021: skipping process with pid: 14236
+Sat May 01 19:28:09 2021: process created with pid: 14237
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/dash>
+Sat May 01 19:28:09 2021: argv[0]: </bin/sh>
+Sat May 01 19:28:09 2021: argv[1]: <-c>
+Sat May 01 19:28:09 2021: argv[2]: <rm -f cuts/* merge.jpg foto.jpg Filestuff meta.inf>
+Sat May 01 19:28:09 2021: skipping process with pid: 14237
+Sat May 01 19:28:09 2021: process created with pid: 14238
+Sat May 01 19:28:09 2021: parent pid: 14237
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/rm>
+Sat May 01 19:28:09 2021: argv[0]: <rm>
+Sat May 01 19:28:09 2021: argv[1]: <-f>
+Sat May 01 19:28:09 2021: argv[2]: <cuts/*>
+Sat May 01 19:28:09 2021: argv[3]: <merge.jpg>
+Sat May 01 19:28:09 2021: argv[4]: <foto.jpg>
+Sat May 01 19:28:09 2021: argv[5]: <Filestuff>
+Sat May 01 19:28:09 2021: argv[6]: <meta.inf>
+Sat May 01 19:28:09 2021: skipping process with pid: 14238
+Sat May 01 19:28:09 2021: process created with pid: 14239
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Sat May 01 19:28:09 2021: argv[0]: <gcc>
+Sat May 01 19:28:09 2021: argv[1]: <src/main.c>
+Sat May 01 19:28:09 2021: argv[2]: <src/include/cutnwrite.c>
+Sat May 01 19:28:09 2021: argv[3]: <src/include/metafile.c>
+Sat May 01 19:28:09 2021: argv[4]: <src/include/metafile.h>
+Sat May 01 19:28:09 2021: argv[5]: <src/include/mergefiles.c>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/mergefiles.h>
+Sat May 01 19:28:09 2021: argv[7]: <src/include/cutnwrite.h>
+Sat May 01 19:28:09 2021: argv[8]: <-I>
+Sat May 01 19:28:09 2021: argv[9]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[10]: <-lssl>
+Sat May 01 19:28:09 2021: argv[11]: <-lcrypto>
+Sat May 01 19:28:09 2021: argv[12]: <-o>
+Sat May 01 19:28:09 2021: argv[13]: <Filestuff>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.eODqzm>
+Sat May 01 19:28:09 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/godofall/CLionProjects/Filestuff/build/libinterceptor-${PLATFORM}.so>
+Sat May 01 19:28:09 2021: envp[2]: <DESKTOP_SESSION=ubuntu>
+Sat May 01 19:28:09 2021: envp[3]: <XDG_SESSION_CLASS=user>
+Sat May 01 19:28:09 2021: envp[4]: <LC_CTYPE=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[5]: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Sat May 01 19:28:09 2021: envp[6]: <GDMSESSION=ubuntu>
+Sat May 01 19:28:09 2021: envp[7]: <XMODIFIERS=@im=ibus>
+Sat May 01 19:28:09 2021: envp[8]: <SHELL=/usr/bin/zsh>
+Sat May 01 19:28:09 2021: envp[9]: <JOURNAL_STREAM=8:55166>
+Sat May 01 19:28:09 2021: envp[10]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Sat May 01 19:28:09 2021: envp[11]: <IM_CONFIG_PHASE=1>
+Sat May 01 19:28:09 2021: envp[12]: <USERNAME=godofall>
+Sat May 01 19:28:09 2021: envp[13]: <TOOLBOX_VERSION=1.20.8352>
+Sat May 01 19:28:09 2021: envp[14]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Sat May 01 19:28:09 2021: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Sat May 01 19:28:09 2021: envp[16]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus>
+Sat May 01 19:28:09 2021: envp[17]: <_=/usr/bin/dbus-update-activation-environment>
+Sat May 01 19:28:09 2021: envp[18]: <MANAGERPID=2204>
+Sat May 01 19:28:09 2021: envp[19]: <LC_NAME=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[20]: <PATH=/home/godofall/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Sat May 01 19:28:09 2021: envp[21]: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Sat May 01 19:28:09 2021: envp[22]: <SESSION_MANAGER=local/otaku:@/tmp/.ICE-unix/2478,unix/otaku:/tmp/.ICE-unix/2478>
+Sat May 01 19:28:09 2021: envp[23]: <XDG_RUNTIME_DIR=/run/user/1000>
+Sat May 01 19:28:09 2021: envp[24]: <XDG_MENU_PREFIX=gnome->
+Sat May 01 19:28:09 2021: envp[25]: <LC_NUMERIC=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[26]: <INVOCATION_ID=f400d450d01749e3916c07d2255e69e2>
+Sat May 01 19:28:09 2021: envp[27]: <XDG_SESSION_DESKTOP=ubuntu>
+Sat May 01 19:28:09 2021: envp[28]: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Sat May 01 19:28:09 2021: envp[29]: <GIO_LAUNCHED_DESKTOP_FILE_PID=2808>
+Sat May 01 19:28:09 2021: envp[30]: <DISPLAY=:0>
+Sat May 01 19:28:09 2021: envp[31]: <PWD=/home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin>
+Sat May 01 19:28:09 2021: envp[32]: <SSH_AGENT_PID=2404>
+Sat May 01 19:28:09 2021: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Sat May 01 19:28:09 2021: envp[34]: <HOME=/home/godofall>
+Sat May 01 19:28:09 2021: envp[35]: <LOGNAME=godofall>
+Sat May 01 19:28:09 2021: envp[36]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Sat May 01 19:28:09 2021: envp[37]: <LC_TIME=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[38]: <QT_IM_MODULE=ibus>
+Sat May 01 19:28:09 2021: envp[39]: <SHLVL=0>
+Sat May 01 19:28:09 2021: envp[40]: <XDG_SESSION_TYPE=x11>
+Sat May 01 19:28:09 2021: envp[41]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Sat May 01 19:28:09 2021: envp[42]: <USER=godofall>
+Sat May 01 19:28:09 2021: envp[43]: <LC_MONETARY=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Sat May 01 19:28:09 2021: envp[45]: <LC_TELEPHONE=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[46]: <OLDPWD=/home/godofall>
+Sat May 01 19:28:09 2021: envp[47]: <MAKEFLAGS=w>
+Sat May 01 19:28:09 2021: envp[48]: <MFLAGS=-w>
+Sat May 01 19:28:09 2021: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Sat May 01 19:28:09 2021: envp[50]: <LC_PAPER=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[51]: <QT_ACCESSIBILITY=1>
+Sat May 01 19:28:09 2021: envp[52]: <DESKTOP_AUTOSTART_ID=10e73290de6667f147161988919177425700000024780016>
+Sat May 01 19:28:09 2021: envp[53]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Sat May 01 19:28:09 2021: envp[54]: <LC_MEASUREMENT=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[55]: <WINDOWPATH=2>
+Sat May 01 19:28:09 2021: envp[56]: <LC_IDENTIFICATION=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[57]: <MAKE_TERMERR=/dev/pts/2>
+Sat May 01 19:28:09 2021: envp[58]: <LC_ADDRESS=pt_BR.UTF-8>
+Sat May 01 19:28:09 2021: envp[59]: <GIO_LAUNCHED_DESKTOP_FILE=/home/godofall/.config/autostart/jetbrains-toolbox.desktop>
+Sat May 01 19:28:09 2021: envp[60]: <LANG=en_US.UTF-8>
+Sat May 01 19:28:09 2021: envp[61]: <MAKELEVEL=2>
+Sat May 01 19:28:09 2021: envp[62]: <LD_PRELOAD=>
+Sat May 01 19:28:09 2021: Probing C compiler: /usr/bin/x86_64-linux-gnu-gcc-9 
+Sat May 01 19:28:09 2021: exit code: 0
+Sat May 01 19:28:09 2021: stdout:
 #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
 #define __FLT32X_MAX_EXP__ 1024
@@ -571,7 +561,7 @@ Sat May 01 18:44:18 2021: stdout:
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-Sat May 01 18:44:18 2021: stderr:
+Sat May 01 19:28:09 2021: stderr:
 Using built-in specs.
 COLLECT_GCC=gcc
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -596,9 +586,9 @@ COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-dM' '-E' '-mtune=generic' '-march=x86-64'
 
-Sat May 01 18:44:18 2021: Probing C++ compiler: /usr/bin/x86_64-linux-gnu-gcc-9 
-Sat May 01 18:44:18 2021: exit code: 0
-Sat May 01 18:44:18 2021: stdout:
+Sat May 01 19:28:09 2021: Probing C++ compiler: /usr/bin/x86_64-linux-gnu-gcc-9 
+Sat May 01 19:28:09 2021: exit code: 0
+Sat May 01 19:28:09 2021: stdout:
 #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
 #define __FLT32X_MAX_EXP__ 1024
@@ -990,7 +980,7 @@ Sat May 01 18:44:18 2021: stdout:
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-Sat May 01 18:44:18 2021: stderr:
+Sat May 01 19:28:09 2021: stderr:
 Using built-in specs.
 COLLECT_GCC=gcc
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -1019,438 +1009,452 @@ COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-dM' '-E' '-mtune=generic' '-march=x86-64'
 
-Sat May 01 18:44:18 2021: process created with pid: 12056
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <main.c>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <main.c>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <main>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12056
-Sat May 01 18:44:18 2021: process created with pid: 12060
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Sat May 01 18:44:18 2021: argv[0]: <as>
-Sat May 01 18:44:18 2021: argv[1]: <-I>
-Sat May 01 18:44:18 2021: argv[2]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[3]: <--64>
-Sat May 01 18:44:18 2021: argv[4]: <-o>
-Sat May 01 18:44:18 2021: argv[5]: </tmp/ccujq7TD.o>
-Sat May 01 18:44:18 2021: argv[6]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12060
-Sat May 01 18:44:18 2021: process created with pid: 12061
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <include/cutnwrite.c>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <cutnwrite.c>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <cutnwrite>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12061
-Sat May 01 18:44:18 2021: process created with pid: 12062
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Sat May 01 18:44:18 2021: argv[0]: <as>
-Sat May 01 18:44:18 2021: argv[1]: <-I>
-Sat May 01 18:44:18 2021: argv[2]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[3]: <--64>
-Sat May 01 18:44:18 2021: argv[4]: <-o>
-Sat May 01 18:44:18 2021: argv[5]: </tmp/ccypuFeE.o>
-Sat May 01 18:44:18 2021: argv[6]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12062
-Sat May 01 18:44:18 2021: process created with pid: 12063
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <include/metafile.c>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <metafile.c>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <metafile>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12063
-Sat May 01 18:44:18 2021: process created with pid: 12064
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Sat May 01 18:44:18 2021: argv[0]: <as>
-Sat May 01 18:44:18 2021: argv[1]: <-I>
-Sat May 01 18:44:18 2021: argv[2]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[3]: <--64>
-Sat May 01 18:44:18 2021: argv[4]: <-o>
-Sat May 01 18:44:18 2021: argv[5]: </tmp/ccNwh68E.o>
-Sat May 01 18:44:18 2021: argv[6]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12064
-Sat May 01 18:44:18 2021: process created with pid: 12065
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <include/metafile.h>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <metafile.h>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <metafile>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: argv[22]: <--output-pch=>
-Sat May 01 18:44:18 2021: argv[23]: <Filestuff>
-Sat May 01 18:44:18 2021: skipping process with pid: 12065
-Sat May 01 18:44:18 2021: process created with pid: 12066
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <include/mergefiles.c>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <mergefiles.c>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <mergefiles>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12066
-Sat May 01 18:44:18 2021: process created with pid: 12067
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Sat May 01 18:44:18 2021: argv[0]: <as>
-Sat May 01 18:44:18 2021: argv[1]: <-I>
-Sat May 01 18:44:18 2021: argv[2]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[3]: <--64>
-Sat May 01 18:44:18 2021: argv[4]: <-o>
-Sat May 01 18:44:18 2021: argv[5]: </tmp/ccOVDdXE.o>
-Sat May 01 18:44:18 2021: argv[6]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: skipping process with pid: 12067
-Sat May 01 18:44:18 2021: process created with pid: 12068
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <include/mergefiles.h>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <mergefiles.h>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <mergefiles>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: argv[22]: <--output-pch=>
-Sat May 01 18:44:18 2021: argv[23]: <Filestuff>
-Sat May 01 18:44:18 2021: skipping process with pid: 12068
-Sat May 01 18:44:18 2021: process created with pid: 12069
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
-Sat May 01 18:44:18 2021: argv[1]: <-quiet>
-Sat May 01 18:44:18 2021: argv[2]: <-I>
-Sat May 01 18:44:18 2021: argv[3]: </usr/include/openssl>
-Sat May 01 18:44:18 2021: argv[4]: <-imultiarch>
-Sat May 01 18:44:18 2021: argv[5]: <x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[6]: <include/cutnwrite.h>
-Sat May 01 18:44:18 2021: argv[7]: <-quiet>
-Sat May 01 18:44:18 2021: argv[8]: <-dumpbase>
-Sat May 01 18:44:18 2021: argv[9]: <cutnwrite.h>
-Sat May 01 18:44:18 2021: argv[10]: <-mtune=generic>
-Sat May 01 18:44:18 2021: argv[11]: <-march=x86-64>
-Sat May 01 18:44:18 2021: argv[12]: <-auxbase>
-Sat May 01 18:44:18 2021: argv[13]: <cutnwrite>
-Sat May 01 18:44:18 2021: argv[14]: <-fasynchronous-unwind-tables>
-Sat May 01 18:44:18 2021: argv[15]: <-fstack-protector-strong>
-Sat May 01 18:44:18 2021: argv[16]: <-Wformat>
-Sat May 01 18:44:18 2021: argv[17]: <-Wformat-security>
-Sat May 01 18:44:18 2021: argv[18]: <-fstack-clash-protection>
-Sat May 01 18:44:18 2021: argv[19]: <-fcf-protection>
-Sat May 01 18:44:18 2021: argv[20]: <-o>
-Sat May 01 18:44:18 2021: argv[21]: </tmp/ccl8OJnF.s>
-Sat May 01 18:44:18 2021: argv[22]: <--output-pch=>
-Sat May 01 18:44:18 2021: argv[23]: <Filestuff>
-Sat May 01 18:44:18 2021: skipping process with pid: 12069
-Sat May 01 18:44:18 2021: process created with pid: 12070
-Sat May 01 18:44:18 2021: parent pid: 12054
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
-Sat May 01 18:44:18 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
-Sat May 01 18:44:18 2021: argv[1]: <-plugin>
-Sat May 01 18:44:18 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
-Sat May 01 18:44:18 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
-Sat May 01 18:44:18 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/ccE0wm4E.res>
-Sat May 01 18:44:18 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc>
-Sat May 01 18:44:18 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc_s>
-Sat May 01 18:44:18 2021: argv[7]: <-plugin-opt=-pass-through=-lc>
-Sat May 01 18:44:18 2021: argv[8]: <-plugin-opt=-pass-through=-lgcc>
-Sat May 01 18:44:18 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
-Sat May 01 18:44:18 2021: argv[10]: <--build-id>
-Sat May 01 18:44:18 2021: argv[11]: <--eh-frame-hdr>
-Sat May 01 18:44:18 2021: argv[12]: <-m>
-Sat May 01 18:44:18 2021: argv[13]: <elf_x86_64>
-Sat May 01 18:44:18 2021: argv[14]: <--hash-style=gnu>
-Sat May 01 18:44:18 2021: argv[15]: <--as-needed>
-Sat May 01 18:44:18 2021: argv[16]: <-dynamic-linker>
-Sat May 01 18:44:18 2021: argv[17]: </lib64/ld-linux-x86-64.so.2>
-Sat May 01 18:44:18 2021: argv[18]: <-pie>
-Sat May 01 18:44:18 2021: argv[19]: <-z>
-Sat May 01 18:44:18 2021: argv[20]: <now>
-Sat May 01 18:44:18 2021: argv[21]: <-z>
-Sat May 01 18:44:18 2021: argv[22]: <relro>
-Sat May 01 18:44:18 2021: argv[23]: <-o>
-Sat May 01 18:44:18 2021: argv[24]: <Filestuff>
-Sat May 01 18:44:18 2021: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
-Sat May 01 18:44:18 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
-Sat May 01 18:44:18 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
-Sat May 01 18:44:18 2021: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
-Sat May 01 18:44:18 2021: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
-Sat May 01 18:44:18 2021: argv[31]: <-L/lib/x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[32]: <-L/lib/../lib>
-Sat May 01 18:44:18 2021: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[34]: <-L/usr/lib/../lib>
-Sat May 01 18:44:18 2021: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
-Sat May 01 18:44:18 2021: argv[36]: </tmp/ccujq7TD.o>
-Sat May 01 18:44:18 2021: argv[37]: </tmp/ccypuFeE.o>
-Sat May 01 18:44:18 2021: argv[38]: </tmp/ccNwh68E.o>
-Sat May 01 18:44:18 2021: argv[39]: </tmp/ccOVDdXE.o>
-Sat May 01 18:44:18 2021: argv[40]: <-lssl>
-Sat May 01 18:44:18 2021: argv[41]: <-lcrypto>
-Sat May 01 18:44:18 2021: argv[42]: <-lgcc>
-Sat May 01 18:44:18 2021: argv[43]: <--push-state>
-Sat May 01 18:44:18 2021: argv[44]: <--as-needed>
-Sat May 01 18:44:18 2021: argv[45]: <-lgcc_s>
-Sat May 01 18:44:18 2021: argv[46]: <--pop-state>
-Sat May 01 18:44:18 2021: argv[47]: <-lc>
-Sat May 01 18:44:18 2021: argv[48]: <-lgcc>
-Sat May 01 18:44:18 2021: argv[49]: <--push-state>
-Sat May 01 18:44:18 2021: argv[50]: <--as-needed>
-Sat May 01 18:44:18 2021: argv[51]: <-lgcc_s>
-Sat May 01 18:44:18 2021: argv[52]: <--pop-state>
-Sat May 01 18:44:18 2021: argv[53]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
-Sat May 01 18:44:18 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
-Sat May 01 18:44:18 2021: skipping process with pid: 12070
-Sat May 01 18:44:18 2021: process created with pid: 12071
-Sat May 01 18:44:18 2021: parent pid: 12070
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
-Sat May 01 18:44:18 2021: argv[0]: </usr/bin/ld>
-Sat May 01 18:44:18 2021: argv[1]: <-plugin>
-Sat May 01 18:44:18 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
-Sat May 01 18:44:18 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
-Sat May 01 18:44:18 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/ccE0wm4E.res>
-Sat May 01 18:44:18 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc>
-Sat May 01 18:44:18 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc_s>
-Sat May 01 18:44:18 2021: argv[7]: <-plugin-opt=-pass-through=-lc>
-Sat May 01 18:44:18 2021: argv[8]: <-plugin-opt=-pass-through=-lgcc>
-Sat May 01 18:44:18 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
-Sat May 01 18:44:18 2021: argv[10]: <--build-id>
-Sat May 01 18:44:18 2021: argv[11]: <--eh-frame-hdr>
-Sat May 01 18:44:18 2021: argv[12]: <-m>
-Sat May 01 18:44:18 2021: argv[13]: <elf_x86_64>
-Sat May 01 18:44:18 2021: argv[14]: <--hash-style=gnu>
-Sat May 01 18:44:18 2021: argv[15]: <--as-needed>
-Sat May 01 18:44:18 2021: argv[16]: <-dynamic-linker>
-Sat May 01 18:44:18 2021: argv[17]: </lib64/ld-linux-x86-64.so.2>
-Sat May 01 18:44:18 2021: argv[18]: <-pie>
-Sat May 01 18:44:18 2021: argv[19]: <-z>
-Sat May 01 18:44:18 2021: argv[20]: <now>
-Sat May 01 18:44:18 2021: argv[21]: <-z>
-Sat May 01 18:44:18 2021: argv[22]: <relro>
-Sat May 01 18:44:18 2021: argv[23]: <-o>
-Sat May 01 18:44:18 2021: argv[24]: <Filestuff>
-Sat May 01 18:44:18 2021: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
-Sat May 01 18:44:18 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
-Sat May 01 18:44:18 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
-Sat May 01 18:44:18 2021: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
-Sat May 01 18:44:18 2021: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
-Sat May 01 18:44:18 2021: argv[31]: <-L/lib/x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[32]: <-L/lib/../lib>
-Sat May 01 18:44:18 2021: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
-Sat May 01 18:44:18 2021: argv[34]: <-L/usr/lib/../lib>
-Sat May 01 18:44:18 2021: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
-Sat May 01 18:44:18 2021: argv[36]: </tmp/ccujq7TD.o>
-Sat May 01 18:44:18 2021: argv[37]: </tmp/ccypuFeE.o>
-Sat May 01 18:44:18 2021: argv[38]: </tmp/ccNwh68E.o>
-Sat May 01 18:44:18 2021: argv[39]: </tmp/ccOVDdXE.o>
-Sat May 01 18:44:18 2021: argv[40]: <-lssl>
-Sat May 01 18:44:18 2021: argv[41]: <-lcrypto>
-Sat May 01 18:44:18 2021: argv[42]: <-lgcc>
-Sat May 01 18:44:18 2021: argv[43]: <--push-state>
-Sat May 01 18:44:18 2021: argv[44]: <--as-needed>
-Sat May 01 18:44:18 2021: argv[45]: <-lgcc_s>
-Sat May 01 18:44:18 2021: argv[46]: <--pop-state>
-Sat May 01 18:44:18 2021: argv[47]: <-lc>
-Sat May 01 18:44:18 2021: argv[48]: <-lgcc>
-Sat May 01 18:44:18 2021: argv[49]: <--push-state>
-Sat May 01 18:44:18 2021: argv[50]: <--as-needed>
-Sat May 01 18:44:18 2021: argv[51]: <-lgcc_s>
-Sat May 01 18:44:18 2021: argv[52]: <--pop-state>
-Sat May 01 18:44:18 2021: argv[53]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
-Sat May 01 18:44:18 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
-Sat May 01 18:44:18 2021: skipping process with pid: 12071
-Sat May 01 18:44:18 2021: process created with pid: 12072
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </home/godofall/CLionProjects/Filestuff/Filestuff>
-Sat May 01 18:44:18 2021: argv[0]: <./Filestuff>
-Sat May 01 18:44:18 2021: skipping process with pid: 12072
-Sat May 01 18:44:18 2021: process created with pid: 12073
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/dash>
-Sat May 01 18:44:18 2021: argv[0]: </bin/sh>
-Sat May 01 18:44:18 2021: argv[1]: <-c>
-Sat May 01 18:44:18 2021: argv[2]: <ls -1v cuts/ | sed 's@^@cuts/@'>
-Sat May 01 18:44:18 2021: skipping process with pid: 12073
-Sat May 01 18:44:18 2021: process created with pid: 12074
-Sat May 01 18:44:18 2021: parent pid: 12073
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/ls>
-Sat May 01 18:44:18 2021: argv[0]: <ls>
-Sat May 01 18:44:18 2021: argv[1]: <-1v>
-Sat May 01 18:44:18 2021: argv[2]: <cuts/>
-Sat May 01 18:44:18 2021: skipping process with pid: 12074
-Sat May 01 18:44:18 2021: process created with pid: 12075
-Sat May 01 18:44:18 2021: parent pid: 12073
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/sed>
-Sat May 01 18:44:18 2021: argv[0]: <sed>
-Sat May 01 18:44:18 2021: argv[1]: <s@^@cuts/@>
-Sat May 01 18:44:18 2021: skipping process with pid: 12075
-Sat May 01 18:44:18 2021: process created with pid: 12076
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/dash>
-Sat May 01 18:44:18 2021: argv[0]: </bin/sh>
-Sat May 01 18:44:18 2021: argv[1]: <-c>
-Sat May 01 18:44:18 2021: argv[2]: <cat cuts/new.jpg.cut-0.rtf cuts/new.jpg.cut-1.rtf cuts/new.jpg.cut-2.rtf cuts/new.jpg.cut-3.rtf cuts/new.jpg.cut-4.rtf cuts/new.jpg.cut-5.rtf cuts/new.jpg.cut-6.rtf cuts/new.jpg.cut-7.rtf cuts/new.jpg.cut-8.rtf cuts/new.jpg.cut-9.rtf cuts/new.jpg.cut-10.rtf > foto.jpg>
-Sat May 01 18:44:18 2021: skipping process with pid: 12076
-Sat May 01 18:44:18 2021: process created with pid: 12077
-Sat May 01 18:44:18 2021: parent pid: 12076
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/cat>
-Sat May 01 18:44:18 2021: argv[0]: <cat>
-Sat May 01 18:44:18 2021: argv[1]: <cuts/new.jpg.cut-0.rtf>
-Sat May 01 18:44:18 2021: argv[2]: <cuts/new.jpg.cut-1.rtf>
-Sat May 01 18:44:18 2021: argv[3]: <cuts/new.jpg.cut-2.rtf>
-Sat May 01 18:44:18 2021: argv[4]: <cuts/new.jpg.cut-3.rtf>
-Sat May 01 18:44:18 2021: argv[5]: <cuts/new.jpg.cut-4.rtf>
-Sat May 01 18:44:18 2021: argv[6]: <cuts/new.jpg.cut-5.rtf>
-Sat May 01 18:44:18 2021: argv[7]: <cuts/new.jpg.cut-6.rtf>
-Sat May 01 18:44:18 2021: argv[8]: <cuts/new.jpg.cut-7.rtf>
-Sat May 01 18:44:18 2021: argv[9]: <cuts/new.jpg.cut-8.rtf>
-Sat May 01 18:44:18 2021: argv[10]: <cuts/new.jpg.cut-9.rtf>
-Sat May 01 18:44:18 2021: argv[11]: <cuts/new.jpg.cut-10.rtf>
-Sat May 01 18:44:18 2021: skipping process with pid: 12077
-Sat May 01 18:44:18 2021: process created with pid: 12078
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/cmp>
-Sat May 01 18:44:18 2021: argv[0]: <cmp>
-Sat May 01 18:44:18 2021: argv[1]: <foto.jpg>
-Sat May 01 18:44:18 2021: argv[2]: <new.jpg>
-Sat May 01 18:44:18 2021: skipping process with pid: 12078
-Sat May 01 18:44:18 2021: process created with pid: 12079
-Sat May 01 18:44:18 2021: parent pid: 12049
-Sat May 01 18:44:18 2021: working directory: </home/godofall/CLionProjects/Filestuff>
-Sat May 01 18:44:18 2021: executable: </usr/bin/cmp>
-Sat May 01 18:44:18 2021: argv[0]: <cmp>
-Sat May 01 18:44:18 2021: argv[1]: <new.jpg>
-Sat May 01 18:44:18 2021: argv[2]: <merge.jpg>
-Sat May 01 18:44:18 2021: skipping process with pid: 12079
-Sat May 01 18:44:18 2021: finalizing json file
-Sat May 01 18:44:18 2021: returned with code: 0
+Sat May 01 19:28:09 2021: process created with pid: 14241
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/main.c>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <main.c>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <main>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14241
+Sat May 01 19:28:09 2021: process created with pid: 14245
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Sat May 01 19:28:09 2021: argv[0]: <as>
+Sat May 01 19:28:09 2021: argv[1]: <-I>
+Sat May 01 19:28:09 2021: argv[2]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[3]: <--64>
+Sat May 01 19:28:09 2021: argv[4]: <-o>
+Sat May 01 19:28:09 2021: argv[5]: </tmp/ccqtCSdU.o>
+Sat May 01 19:28:09 2021: argv[6]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14245
+Sat May 01 19:28:09 2021: process created with pid: 14246
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/cutnwrite.c>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <cutnwrite.c>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <cutnwrite>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14246
+Sat May 01 19:28:09 2021: process created with pid: 14247
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Sat May 01 19:28:09 2021: argv[0]: <as>
+Sat May 01 19:28:09 2021: argv[1]: <-I>
+Sat May 01 19:28:09 2021: argv[2]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[3]: <--64>
+Sat May 01 19:28:09 2021: argv[4]: <-o>
+Sat May 01 19:28:09 2021: argv[5]: </tmp/cck7I9zR.o>
+Sat May 01 19:28:09 2021: argv[6]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14247
+Sat May 01 19:28:09 2021: process created with pid: 14248
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/metafile.c>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <metafile.c>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <metafile>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14248
+Sat May 01 19:28:09 2021: process created with pid: 14249
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Sat May 01 19:28:09 2021: argv[0]: <as>
+Sat May 01 19:28:09 2021: argv[1]: <-I>
+Sat May 01 19:28:09 2021: argv[2]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[3]: <--64>
+Sat May 01 19:28:09 2021: argv[4]: <-o>
+Sat May 01 19:28:09 2021: argv[5]: </tmp/ccNxzpqS.o>
+Sat May 01 19:28:09 2021: argv[6]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14249
+Sat May 01 19:28:09 2021: process created with pid: 14250
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/metafile.h>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <metafile.h>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <metafile>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: argv[24]: <--output-pch=>
+Sat May 01 19:28:09 2021: argv[25]: <Filestuff>
+Sat May 01 19:28:09 2021: skipping process with pid: 14250
+Sat May 01 19:28:09 2021: process created with pid: 14255
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/mergefiles.c>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <mergefiles.c>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <mergefiles>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14255
+Sat May 01 19:28:09 2021: process created with pid: 14256
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Sat May 01 19:28:09 2021: argv[0]: <as>
+Sat May 01 19:28:09 2021: argv[1]: <-I>
+Sat May 01 19:28:09 2021: argv[2]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[3]: <--64>
+Sat May 01 19:28:09 2021: argv[4]: <-o>
+Sat May 01 19:28:09 2021: argv[5]: </tmp/cc6FczwS.o>
+Sat May 01 19:28:09 2021: argv[6]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: skipping process with pid: 14256
+Sat May 01 19:28:09 2021: process created with pid: 14257
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/mergefiles.h>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <mergefiles.h>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <mergefiles>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: argv[24]: <--output-pch=>
+Sat May 01 19:28:09 2021: argv[25]: <Filestuff>
+Sat May 01 19:28:09 2021: skipping process with pid: 14257
+Sat May 01 19:28:09 2021: process created with pid: 14258
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Sat May 01 19:28:09 2021: argv[1]: <-quiet>
+Sat May 01 19:28:09 2021: argv[2]: <-I>
+Sat May 01 19:28:09 2021: argv[3]: </usr/include/openssl>
+Sat May 01 19:28:09 2021: argv[4]: <-imultiarch>
+Sat May 01 19:28:09 2021: argv[5]: <x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[6]: <src/include/cutnwrite.h>
+Sat May 01 19:28:09 2021: argv[7]: <-quiet>
+Sat May 01 19:28:09 2021: argv[8]: <-dumpbase>
+Sat May 01 19:28:09 2021: argv[9]: <cutnwrite.h>
+Sat May 01 19:28:09 2021: argv[10]: <-mtune=generic>
+Sat May 01 19:28:09 2021: argv[11]: <-march=x86-64>
+Sat May 01 19:28:09 2021: argv[12]: <-auxbase>
+Sat May 01 19:28:09 2021: argv[13]: <cutnwrite>
+Sat May 01 19:28:09 2021: argv[14]: <-Werror>
+Sat May 01 19:28:09 2021: argv[15]: <-Wpedantic>
+Sat May 01 19:28:09 2021: argv[16]: <-Wall>
+Sat May 01 19:28:09 2021: argv[17]: <-fasynchronous-unwind-tables>
+Sat May 01 19:28:09 2021: argv[18]: <-fstack-protector-strong>
+Sat May 01 19:28:09 2021: argv[19]: <-Wformat-security>
+Sat May 01 19:28:09 2021: argv[20]: <-fstack-clash-protection>
+Sat May 01 19:28:09 2021: argv[21]: <-fcf-protection>
+Sat May 01 19:28:09 2021: argv[22]: <-o>
+Sat May 01 19:28:09 2021: argv[23]: </tmp/ccN2tOYU.s>
+Sat May 01 19:28:09 2021: argv[24]: <--output-pch=>
+Sat May 01 19:28:09 2021: argv[25]: <Filestuff>
+Sat May 01 19:28:09 2021: skipping process with pid: 14258
+Sat May 01 19:28:09 2021: process created with pid: 14259
+Sat May 01 19:28:09 2021: parent pid: 14239
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Sat May 01 19:28:09 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Sat May 01 19:28:09 2021: argv[1]: <-plugin>
+Sat May 01 19:28:09 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Sat May 01 19:28:09 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Sat May 01 19:28:09 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/ccgdvvzT.res>
+Sat May 01 19:28:09 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc>
+Sat May 01 19:28:09 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc_s>
+Sat May 01 19:28:09 2021: argv[7]: <-plugin-opt=-pass-through=-lc>
+Sat May 01 19:28:09 2021: argv[8]: <-plugin-opt=-pass-through=-lgcc>
+Sat May 01 19:28:09 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
+Sat May 01 19:28:09 2021: argv[10]: <--build-id>
+Sat May 01 19:28:09 2021: argv[11]: <--eh-frame-hdr>
+Sat May 01 19:28:09 2021: argv[12]: <-m>
+Sat May 01 19:28:09 2021: argv[13]: <elf_x86_64>
+Sat May 01 19:28:09 2021: argv[14]: <--hash-style=gnu>
+Sat May 01 19:28:09 2021: argv[15]: <--as-needed>
+Sat May 01 19:28:09 2021: argv[16]: <-dynamic-linker>
+Sat May 01 19:28:09 2021: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Sat May 01 19:28:09 2021: argv[18]: <-pie>
+Sat May 01 19:28:09 2021: argv[19]: <-z>
+Sat May 01 19:28:09 2021: argv[20]: <now>
+Sat May 01 19:28:09 2021: argv[21]: <-z>
+Sat May 01 19:28:09 2021: argv[22]: <relro>
+Sat May 01 19:28:09 2021: argv[23]: <-o>
+Sat May 01 19:28:09 2021: argv[24]: <Filestuff>
+Sat May 01 19:28:09 2021: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Sat May 01 19:28:09 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Sat May 01 19:28:09 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Sat May 01 19:28:09 2021: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Sat May 01 19:28:09 2021: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Sat May 01 19:28:09 2021: argv[31]: <-L/lib/x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[32]: <-L/lib/../lib>
+Sat May 01 19:28:09 2021: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[34]: <-L/usr/lib/../lib>
+Sat May 01 19:28:09 2021: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Sat May 01 19:28:09 2021: argv[36]: </tmp/ccqtCSdU.o>
+Sat May 01 19:28:09 2021: argv[37]: </tmp/cck7I9zR.o>
+Sat May 01 19:28:09 2021: argv[38]: </tmp/ccNxzpqS.o>
+Sat May 01 19:28:09 2021: argv[39]: </tmp/cc6FczwS.o>
+Sat May 01 19:28:09 2021: argv[40]: <-lssl>
+Sat May 01 19:28:09 2021: argv[41]: <-lcrypto>
+Sat May 01 19:28:09 2021: argv[42]: <-lgcc>
+Sat May 01 19:28:09 2021: argv[43]: <--push-state>
+Sat May 01 19:28:09 2021: argv[44]: <--as-needed>
+Sat May 01 19:28:09 2021: argv[45]: <-lgcc_s>
+Sat May 01 19:28:09 2021: argv[46]: <--pop-state>
+Sat May 01 19:28:09 2021: argv[47]: <-lc>
+Sat May 01 19:28:09 2021: argv[48]: <-lgcc>
+Sat May 01 19:28:09 2021: argv[49]: <--push-state>
+Sat May 01 19:28:09 2021: argv[50]: <--as-needed>
+Sat May 01 19:28:09 2021: argv[51]: <-lgcc_s>
+Sat May 01 19:28:09 2021: argv[52]: <--pop-state>
+Sat May 01 19:28:09 2021: argv[53]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Sat May 01 19:28:09 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Sat May 01 19:28:09 2021: skipping process with pid: 14259
+Sat May 01 19:28:09 2021: process created with pid: 14260
+Sat May 01 19:28:09 2021: parent pid: 14259
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Sat May 01 19:28:09 2021: argv[0]: </usr/bin/ld>
+Sat May 01 19:28:09 2021: argv[1]: <-plugin>
+Sat May 01 19:28:09 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Sat May 01 19:28:09 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Sat May 01 19:28:09 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/ccgdvvzT.res>
+Sat May 01 19:28:09 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc>
+Sat May 01 19:28:09 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc_s>
+Sat May 01 19:28:09 2021: argv[7]: <-plugin-opt=-pass-through=-lc>
+Sat May 01 19:28:09 2021: argv[8]: <-plugin-opt=-pass-through=-lgcc>
+Sat May 01 19:28:09 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
+Sat May 01 19:28:09 2021: argv[10]: <--build-id>
+Sat May 01 19:28:09 2021: argv[11]: <--eh-frame-hdr>
+Sat May 01 19:28:09 2021: argv[12]: <-m>
+Sat May 01 19:28:09 2021: argv[13]: <elf_x86_64>
+Sat May 01 19:28:09 2021: argv[14]: <--hash-style=gnu>
+Sat May 01 19:28:09 2021: argv[15]: <--as-needed>
+Sat May 01 19:28:09 2021: argv[16]: <-dynamic-linker>
+Sat May 01 19:28:09 2021: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Sat May 01 19:28:09 2021: argv[18]: <-pie>
+Sat May 01 19:28:09 2021: argv[19]: <-z>
+Sat May 01 19:28:09 2021: argv[20]: <now>
+Sat May 01 19:28:09 2021: argv[21]: <-z>
+Sat May 01 19:28:09 2021: argv[22]: <relro>
+Sat May 01 19:28:09 2021: argv[23]: <-o>
+Sat May 01 19:28:09 2021: argv[24]: <Filestuff>
+Sat May 01 19:28:09 2021: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Sat May 01 19:28:09 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Sat May 01 19:28:09 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Sat May 01 19:28:09 2021: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Sat May 01 19:28:09 2021: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Sat May 01 19:28:09 2021: argv[31]: <-L/lib/x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[32]: <-L/lib/../lib>
+Sat May 01 19:28:09 2021: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Sat May 01 19:28:09 2021: argv[34]: <-L/usr/lib/../lib>
+Sat May 01 19:28:09 2021: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Sat May 01 19:28:09 2021: argv[36]: </tmp/ccqtCSdU.o>
+Sat May 01 19:28:09 2021: argv[37]: </tmp/cck7I9zR.o>
+Sat May 01 19:28:09 2021: argv[38]: </tmp/ccNxzpqS.o>
+Sat May 01 19:28:09 2021: argv[39]: </tmp/cc6FczwS.o>
+Sat May 01 19:28:09 2021: argv[40]: <-lssl>
+Sat May 01 19:28:09 2021: argv[41]: <-lcrypto>
+Sat May 01 19:28:09 2021: argv[42]: <-lgcc>
+Sat May 01 19:28:09 2021: argv[43]: <--push-state>
+Sat May 01 19:28:09 2021: argv[44]: <--as-needed>
+Sat May 01 19:28:09 2021: argv[45]: <-lgcc_s>
+Sat May 01 19:28:09 2021: argv[46]: <--pop-state>
+Sat May 01 19:28:09 2021: argv[47]: <-lc>
+Sat May 01 19:28:09 2021: argv[48]: <-lgcc>
+Sat May 01 19:28:09 2021: argv[49]: <--push-state>
+Sat May 01 19:28:09 2021: argv[50]: <--as-needed>
+Sat May 01 19:28:09 2021: argv[51]: <-lgcc_s>
+Sat May 01 19:28:09 2021: argv[52]: <--pop-state>
+Sat May 01 19:28:09 2021: argv[53]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Sat May 01 19:28:09 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Sat May 01 19:28:09 2021: skipping process with pid: 14260
+Sat May 01 19:28:09 2021: process created with pid: 14261
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </home/godofall/CLionProjects/Filestuff/Filestuff>
+Sat May 01 19:28:09 2021: argv[0]: <./Filestuff>
+Sat May 01 19:28:09 2021: skipping process with pid: 14261
+Sat May 01 19:28:09 2021: process created with pid: 14262
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/dash>
+Sat May 01 19:28:09 2021: argv[0]: </bin/sh>
+Sat May 01 19:28:09 2021: argv[1]: <-c>
+Sat May 01 19:28:09 2021: argv[2]: <ls -1v cuts/ | sed 's@^@cuts/@'>
+Sat May 01 19:28:09 2021: skipping process with pid: 14262
+Sat May 01 19:28:09 2021: process created with pid: 14263
+Sat May 01 19:28:09 2021: parent pid: 14262
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/ls>
+Sat May 01 19:28:09 2021: argv[0]: <ls>
+Sat May 01 19:28:09 2021: argv[1]: <-1v>
+Sat May 01 19:28:09 2021: argv[2]: <cuts/>
+Sat May 01 19:28:09 2021: skipping process with pid: 14263
+Sat May 01 19:28:09 2021: process created with pid: 14264
+Sat May 01 19:28:09 2021: parent pid: 14262
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/sed>
+Sat May 01 19:28:09 2021: argv[0]: <sed>
+Sat May 01 19:28:09 2021: argv[1]: <s@^@cuts/@>
+Sat May 01 19:28:09 2021: skipping process with pid: 14264
+Sat May 01 19:28:09 2021: process created with pid: 14265
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/dash>
+Sat May 01 19:28:09 2021: argv[0]: </bin/sh>
+Sat May 01 19:28:09 2021: argv[1]: <-c>
+Sat May 01 19:28:09 2021: argv[2]: <cat cuts/new.jpg.cut-0.rtf cuts/new.jpg.cut-1.rtf cuts/new.jpg.cut-2.rtf cuts/new.jpg.cut-3.rtf cuts/new.jpg.cut-4.rtf cuts/new.jpg.cut-5.rtf cuts/new.jpg.cut-6.rtf cuts/new.jpg.cut-7.rtf cuts/new.jpg.cut-8.rtf cuts/new.jpg.cut-9.rtf cuts/new.jpg.cut-10.rtf > foto.jpg>
+Sat May 01 19:28:09 2021: skipping process with pid: 14265
+Sat May 01 19:28:09 2021: process created with pid: 14266
+Sat May 01 19:28:09 2021: parent pid: 14265
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/cat>
+Sat May 01 19:28:09 2021: argv[0]: <cat>
+Sat May 01 19:28:09 2021: argv[1]: <cuts/new.jpg.cut-0.rtf>
+Sat May 01 19:28:09 2021: argv[2]: <cuts/new.jpg.cut-1.rtf>
+Sat May 01 19:28:09 2021: argv[3]: <cuts/new.jpg.cut-2.rtf>
+Sat May 01 19:28:09 2021: argv[4]: <cuts/new.jpg.cut-3.rtf>
+Sat May 01 19:28:09 2021: argv[5]: <cuts/new.jpg.cut-4.rtf>
+Sat May 01 19:28:09 2021: argv[6]: <cuts/new.jpg.cut-5.rtf>
+Sat May 01 19:28:09 2021: argv[7]: <cuts/new.jpg.cut-6.rtf>
+Sat May 01 19:28:09 2021: argv[8]: <cuts/new.jpg.cut-7.rtf>
+Sat May 01 19:28:09 2021: argv[9]: <cuts/new.jpg.cut-8.rtf>
+Sat May 01 19:28:09 2021: argv[10]: <cuts/new.jpg.cut-9.rtf>
+Sat May 01 19:28:09 2021: argv[11]: <cuts/new.jpg.cut-10.rtf>
+Sat May 01 19:28:09 2021: skipping process with pid: 14266
+Sat May 01 19:28:09 2021: process created with pid: 14267
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/cmp>
+Sat May 01 19:28:09 2021: argv[0]: <cmp>
+Sat May 01 19:28:09 2021: argv[1]: <foto.jpg>
+Sat May 01 19:28:09 2021: argv[2]: <new.jpg>
+Sat May 01 19:28:09 2021: skipping process with pid: 14267
+Sat May 01 19:28:09 2021: process created with pid: 14268
+Sat May 01 19:28:09 2021: parent pid: 14234
+Sat May 01 19:28:09 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 19:28:09 2021: executable: </usr/bin/cmp>
+Sat May 01 19:28:09 2021: argv[0]: <cmp>
+Sat May 01 19:28:09 2021: argv[1]: <new.jpg>
+Sat May 01 19:28:09 2021: argv[2]: <merge.jpg>
+Sat May 01 19:28:09 2021: skipping process with pid: 14268
+Sat May 01 19:28:09 2021: finalizing json file
+Sat May 01 19:28:09 2021: returned with code: 0
