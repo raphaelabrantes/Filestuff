@@ -1,0 +1,239 @@
+Sat May 01 17:28:54 2021: build-wrapper, version 6.20 (linux-x86)
+Sat May 01 17:28:54 2021: System name: Linux Nodename: otaku Release: 5.8.0-50-generic Version: #56~20.04.1-Ubuntu SMP Mon Apr 12 21:46:35 UTC 2021 Machine: x86_64
+Sat May 01 17:28:54 2021: socket path: /tmp/build-wrapper-socket.GziAl5
+Sat May 01 17:28:54 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build-wrapper-linux-x86/libinterceptor-i686.so
+Sat May 01 17:28:54 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Sat May 01 17:28:54 2021: dynamic library found: /home/godofall/CLionProjects/Filestuff/build-wrapper-linux-x86/libinterceptor-haswell.so
+Sat May 01 17:28:54 2021: command executed as: <build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Sat May 01 17:28:54 2021: command line received: <cmake --build cmake-build-debug --target Filestuff -- -j 9>
+Sat May 01 17:28:54 2021: env 0: <PATH=/home/godofall/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Sat May 01 17:28:54 2021: env 1: <LC_MEASUREMENT=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 2: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Sat May 01 17:28:54 2021: env 3: <INVOCATION_ID=f400d450d01749e3916c07d2255e69e2>
+Sat May 01 17:28:54 2021: env 4: <XMODIFIERS=@im=ibus>
+Sat May 01 17:28:54 2021: env 5: <LC_TELEPHONE=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 6: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Sat May 01 17:28:54 2021: env 7: <GDMSESSION=ubuntu>
+Sat May 01 17:28:54 2021: env 8: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Sat May 01 17:28:54 2021: env 9: <LC_TIME=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 10: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus>
+Sat May 01 17:28:54 2021: env 11: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Sat May 01 17:28:54 2021: env 12: <__INTELLIJ_COMMAND_HISTFILE__=/home/godofall/.cache/JetBrains/CLion2021.1/terminal/history/Filestuff-history8>
+Sat May 01 17:28:54 2021: env 13: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Sat May 01 17:28:54 2021: env 14: <JOURNAL_STREAM=8:55166>
+Sat May 01 17:28:54 2021: env 15: <SSH_AGENT_PID=2404>
+Sat May 01 17:28:54 2021: env 16: <DESKTOP_AUTOSTART_ID=10e73290de6667f147161988919177425700000024780016>
+Sat May 01 17:28:54 2021: env 17: <LC_PAPER=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 18: <SESSION_MANAGER=local/otaku:@/tmp/.ICE-unix/2478,unix/otaku:/tmp/.ICE-unix/2478>
+Sat May 01 17:28:54 2021: env 19: <USERNAME=godofall>
+Sat May 01 17:28:54 2021: env 20: <LOGNAME=godofall>
+Sat May 01 17:28:54 2021: env 21: <PWD=/home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: env 22: <MANAGERPID=2204>
+Sat May 01 17:28:54 2021: env 23: <IM_CONFIG_PHASE=1>
+Sat May 01 17:28:54 2021: env 24: <TOOLBOX_VERSION=1.20.8352>
+Sat May 01 17:28:54 2021: env 25: <SHELL=/usr/bin/zsh>
+Sat May 01 17:28:54 2021: env 26: <LC_ADDRESS=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 27: <GIO_LAUNCHED_DESKTOP_FILE=/home/godofall/.config/autostart/jetbrains-toolbox.desktop>
+Sat May 01 17:28:54 2021: env 28: <OLDPWD=/home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: env 29: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Sat May 01 17:28:54 2021: env 30: <GTK_MODULES=gail:atk-bridge>
+Sat May 01 17:28:54 2021: env 31: <TERM_SESSION_ID=a3f122c8-233f-4f69-9b0e-480b8923c4f1>
+Sat May 01 17:28:54 2021: env 32: <LC_CTYPE=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 33: <XDG_SESSION_DESKTOP=ubuntu>
+Sat May 01 17:28:54 2021: env 34: <SHLVL=1>
+Sat May 01 17:28:54 2021: env 35: <LC_IDENTIFICATION=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 36: <LC_MONETARY=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 37: <QT_IM_MODULE=ibus>
+Sat May 01 17:28:54 2021: env 38: <TERM=xterm-256color>
+Sat May 01 17:28:54 2021: env 39: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Sat May 01 17:28:54 2021: env 40: <LANG=en_US.UTF-8>
+Sat May 01 17:28:54 2021: env 41: <XDG_SESSION_TYPE=x11>
+Sat May 01 17:28:54 2021: env 42: <DISPLAY=:0>
+Sat May 01 17:28:54 2021: env 43: <LC_NAME=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 44: <XDG_SESSION_CLASS=user>
+Sat May 01 17:28:54 2021: env 45: <_=/home/godofall/CLionProjects/Filestuff/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Sat May 01 17:28:54 2021: env 46: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Sat May 01 17:28:54 2021: env 47: <DESKTOP_SESSION=ubuntu>
+Sat May 01 17:28:54 2021: env 48: <USER=godofall>
+Sat May 01 17:28:54 2021: env 49: <XDG_MENU_PREFIX=gnome->
+Sat May 01 17:28:54 2021: env 50: <GIO_LAUNCHED_DESKTOP_FILE_PID=2808>
+Sat May 01 17:28:54 2021: env 51: <QT_ACCESSIBILITY=1>
+Sat May 01 17:28:54 2021: env 52: <WINDOWPATH=2>
+Sat May 01 17:28:54 2021: env 53: <TERMINAL_EMULATOR=JetBrains-JediTerm>
+Sat May 01 17:28:54 2021: env 54: <LC_NUMERIC=pt_BR.UTF-8>
+Sat May 01 17:28:54 2021: env 55: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Sat May 01 17:28:54 2021: env 56: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Sat May 01 17:28:54 2021: env 57: <XDG_RUNTIME_DIR=/run/user/1000>
+Sat May 01 17:28:54 2021: env 58: <HOME=/home/godofall>
+Sat May 01 17:28:54 2021: env 59: <ZSH=/home/godofall/.oh-my-zsh>
+Sat May 01 17:28:54 2021: env 60: <PAGER=less>
+Sat May 01 17:28:54 2021: env 61: <LESS=-R>
+Sat May 01 17:28:54 2021: env 62: <LSCOLORS=Gxfxcxdxbxegedabagacad>
+Sat May 01 17:28:54 2021: env 63: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Sat May 01 17:28:54 2021: executing: <cmake --build cmake-build-debug --target Filestuff -- -j 9>
+Sat May 01 17:28:54 2021: initializing json file
+Sat May 01 17:28:54 2021: process created with pid: 6943
+Sat May 01 17:28:54 2021: parent pid: 6942
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: executable: </home/godofall/CLionProjects/Filestuff/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Sat May 01 17:28:54 2021: argv[0]: <build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Sat May 01 17:28:54 2021: argv[1]: <-c>
+Sat May 01 17:28:54 2021: argv[2]: <>
+Sat May 01 17:28:54 2021: argv[3]: <cmake>
+Sat May 01 17:28:54 2021: argv[4]: <--build>
+Sat May 01 17:28:54 2021: argv[5]: <cmake-build-debug>
+Sat May 01 17:28:54 2021: argv[6]: <--target>
+Sat May 01 17:28:54 2021: argv[7]: <Filestuff>
+Sat May 01 17:28:54 2021: argv[8]: <-->
+Sat May 01 17:28:54 2021: argv[9]: <-j>
+Sat May 01 17:28:54 2021: argv[10]: <9>
+Sat May 01 17:28:54 2021: skipping process with pid: 6943
+Sat May 01 17:28:54 2021: process created with pid: 6944
+Sat May 01 17:28:54 2021: parent pid: 6943
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: executable: </usr/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: <cmake>
+Sat May 01 17:28:54 2021: argv[1]: <--build>
+Sat May 01 17:28:54 2021: argv[2]: <cmake-build-debug>
+Sat May 01 17:28:54 2021: argv[3]: <--target>
+Sat May 01 17:28:54 2021: argv[4]: <Filestuff>
+Sat May 01 17:28:54 2021: argv[5]: <-->
+Sat May 01 17:28:54 2021: argv[6]: <-j>
+Sat May 01 17:28:54 2021: argv[7]: <9>
+Sat May 01 17:28:54 2021: skipping process with pid: 6944
+Sat May 01 17:28:54 2021: process created with pid: 6945
+Sat May 01 17:28:54 2021: parent pid: 6944
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[0]: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[1]: <-j>
+Sat May 01 17:28:54 2021: argv[2]: <9>
+Sat May 01 17:28:54 2021: argv[3]: <Filestuff>
+Sat May 01 17:28:54 2021: skipping process with pid: 6945
+Sat May 01 17:28:54 2021: process created with pid: 6946
+Sat May 01 17:28:54 2021: parent pid: 6945
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[1]: <-S/home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: argv[2]: <-B/home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: argv[3]: <--check-build-system>
+Sat May 01 17:28:54 2021: argv[4]: <CMakeFiles/Makefile.cmake>
+Sat May 01 17:28:54 2021: argv[5]: <0>
+Sat May 01 17:28:54 2021: skipping process with pid: 6946
+Sat May 01 17:28:54 2021: process created with pid: 6947
+Sat May 01 17:28:54 2021: parent pid: 6945
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[0]: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[1]: <-s>
+Sat May 01 17:28:54 2021: argv[2]: <-f>
+Sat May 01 17:28:54 2021: argv[3]: <CMakeFiles/Makefile2>
+Sat May 01 17:28:54 2021: argv[4]: <Filestuff>
+Sat May 01 17:28:54 2021: skipping process with pid: 6947
+Sat May 01 17:28:54 2021: process created with pid: 6948
+Sat May 01 17:28:54 2021: parent pid: 6947
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[1]: <-S/home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: argv[2]: <-B/home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: argv[3]: <--check-build-system>
+Sat May 01 17:28:54 2021: argv[4]: <CMakeFiles/Makefile.cmake>
+Sat May 01 17:28:54 2021: argv[5]: <0>
+Sat May 01 17:28:54 2021: skipping process with pid: 6948
+Sat May 01 17:28:54 2021: process created with pid: 6949
+Sat May 01 17:28:54 2021: parent pid: 6947
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[1]: <-E>
+Sat May 01 17:28:54 2021: argv[2]: <cmake_progress_start>
+Sat May 01 17:28:54 2021: argv[3]: </home/godofall/CLionProjects/Filestuff/cmake-build-debug/CMakeFiles>
+Sat May 01 17:28:54 2021: argv[4]: <5>
+Sat May 01 17:28:54 2021: skipping process with pid: 6949
+Sat May 01 17:28:54 2021: process created with pid: 6950
+Sat May 01 17:28:54 2021: parent pid: 6947
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[0]: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[1]: <-s>
+Sat May 01 17:28:54 2021: argv[2]: <-f>
+Sat May 01 17:28:54 2021: argv[3]: <CMakeFiles/Makefile2>
+Sat May 01 17:28:54 2021: argv[4]: <CMakeFiles/Filestuff.dir/all>
+Sat May 01 17:28:54 2021: skipping process with pid: 6950
+Sat May 01 17:28:54 2021: process created with pid: 6951
+Sat May 01 17:28:54 2021: parent pid: 6950
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[0]: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[1]: <-s>
+Sat May 01 17:28:54 2021: argv[2]: <-f>
+Sat May 01 17:28:54 2021: argv[3]: <CMakeFiles/Filestuff.dir/build.make>
+Sat May 01 17:28:54 2021: argv[4]: <CMakeFiles/Filestuff.dir/depend>
+Sat May 01 17:28:54 2021: skipping process with pid: 6951
+Sat May 01 17:28:54 2021: process created with pid: 6952
+Sat May 01 17:28:54 2021: parent pid: 6951
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/dash>
+Sat May 01 17:28:54 2021: argv[0]: </bin/sh>
+Sat May 01 17:28:54 2021: argv[1]: <-c>
+Sat May 01 17:28:54 2021: argv[2]: <cd /home/godofall/CLionProjects/Filestuff/cmake-build-debug && /home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -E cmake_depends "Unix Makefiles" /home/godofall/CLionProjects/Filestuff /home/godofall/CLionProjects/Filestuff /home/godofall/CLionProjects/Filestuff/cmake-build-debug /home/godofall/CLionProjects/Filestuff/cmake-build-debug /home/godofall/CLionProjects/Filestuff/cmake-build-debug/CMakeFiles/Filestuff.dir/DependInfo.cmake --color=>
+Sat May 01 17:28:54 2021: skipping process with pid: 6952
+Sat May 01 17:28:54 2021: process created with pid: 6953
+Sat May 01 17:28:54 2021: parent pid: 6952
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[1]: <-E>
+Sat May 01 17:28:54 2021: argv[2]: <cmake_depends>
+Sat May 01 17:28:54 2021: argv[3]: <Unix Makefiles>
+Sat May 01 17:28:54 2021: argv[4]: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: argv[5]: </home/godofall/CLionProjects/Filestuff>
+Sat May 01 17:28:54 2021: argv[6]: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: argv[7]: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: argv[8]: </home/godofall/CLionProjects/Filestuff/cmake-build-debug/CMakeFiles/Filestuff.dir/DependInfo.cmake>
+Sat May 01 17:28:54 2021: argv[9]: <--color=>
+Sat May 01 17:28:54 2021: skipping process with pid: 6953
+Sat May 01 17:28:54 2021: process created with pid: 6954
+Sat May 01 17:28:54 2021: parent pid: 6950
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[0]: </usr/bin/make>
+Sat May 01 17:28:54 2021: argv[1]: <-s>
+Sat May 01 17:28:54 2021: argv[2]: <-f>
+Sat May 01 17:28:54 2021: argv[3]: <CMakeFiles/Filestuff.dir/build.make>
+Sat May 01 17:28:54 2021: argv[4]: <CMakeFiles/Filestuff.dir/build>
+Sat May 01 17:28:54 2021: skipping process with pid: 6954
+Sat May 01 17:28:54 2021: process created with pid: 6955
+Sat May 01 17:28:54 2021: parent pid: 6950
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </usr/bin/dash>
+Sat May 01 17:28:54 2021: argv[0]: </bin/sh>
+Sat May 01 17:28:54 2021: argv[1]: <-c>
+Sat May 01 17:28:54 2021: argv[2]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/godofall/CLionProjects/Filestuff/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Filestuff">
+Sat May 01 17:28:54 2021: skipping process with pid: 6955
+Sat May 01 17:28:54 2021: process created with pid: 6956
+Sat May 01 17:28:54 2021: parent pid: 6955
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[1]: <-E>
+Sat May 01 17:28:54 2021: argv[2]: <cmake_echo_color>
+Sat May 01 17:28:54 2021: argv[3]: <--switch=>
+Sat May 01 17:28:54 2021: argv[4]: <--progress-dir=/home/godofall/CLionProjects/Filestuff/cmake-build-debug/CMakeFiles>
+Sat May 01 17:28:54 2021: argv[5]: <--progress-num=1,2,3,4,5>
+Sat May 01 17:28:54 2021: argv[6]: <Built target Filestuff>
+Sat May 01 17:28:54 2021: skipping process with pid: 6956
+Sat May 01 17:28:54 2021: process created with pid: 6957
+Sat May 01 17:28:54 2021: parent pid: 6947
+Sat May 01 17:28:54 2021: working directory: </home/godofall/CLionProjects/Filestuff/cmake-build-debug>
+Sat May 01 17:28:54 2021: executable: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[0]: </home/godofall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake>
+Sat May 01 17:28:54 2021: argv[1]: <-E>
+Sat May 01 17:28:54 2021: argv[2]: <cmake_progress_start>
+Sat May 01 17:28:54 2021: argv[3]: </home/godofall/CLionProjects/Filestuff/cmake-build-debug/CMakeFiles>
+Sat May 01 17:28:54 2021: argv[4]: <0>
+Sat May 01 17:28:54 2021: skipping process with pid: 6957
+Sat May 01 17:28:54 2021: finalizing json file
+Sat May 01 17:28:54 2021: returned with code: 0
