@@ -5,9 +5,7 @@ void readcutf(char filename[], metadata * metainfo){
 
     FILE *file = fopen(filename, "rb");
     if(file==NULL) exit(1);
-    fseek(file, 0L, SEEK_END);
-    ogfilesz= ftell(file);
-    rewind(file);
+    ogfilesz = getfilesz(file);
     cuts = ogfilesz/ CUTSIZE;
     char * fbuffer = (char *) calloc(ogfilesz, sizeof(char));
     fread(fbuffer, 1, ogfilesz, file);
@@ -37,6 +35,14 @@ char * createfilename(char oldfilename[], uint64_t  cut){
     strcat(new_name, cutname);
     return new_name;
 
+}
+
+uint64_t getfilesz(FILE * file){
+    uint64_t size;
+    fseek(file, 0L, SEEK_END);
+    size= ftell(file);
+    rewind(file);
+    return size;
 }
 
 uint64_t writefile(const char fbuffer[], uint64_t cutsmade, char * filename, uint64_t until, metadata * metainfo){

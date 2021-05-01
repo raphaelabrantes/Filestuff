@@ -4,6 +4,7 @@
 
 void readcutf(char filename[], metadata * metainfo);
 char * createfilename(char oldfilename[], uint64_t cut);
+uint64_t getfilesz(FILE * file);
 uint64_t writefile( const char fbuffer[], uint64_t cutsmade, char * filename, uint64_t until, metadata * metainfo);
 
 
