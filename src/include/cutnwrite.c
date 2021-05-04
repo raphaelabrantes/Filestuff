@@ -1,7 +1,10 @@
 #include "cutnwrite.h"
 
 void readcutf(char filename[], metadata * metainfo){
-    uint64_t  ogfilesz, cuts, cutsmade, wrote =0;
+    uint64_t ogfilesz;
+    uint64_t cuts;
+    uint64_t cutsmade;
+    uint64_t wrote = 0;
 
     FILE *file = fopen(filename, "rb");
     if(file==NULL) exit(1);
@@ -19,6 +22,7 @@ void readcutf(char filename[], metadata * metainfo){
     if(wrote != ogfilesz){
         wrote += writefile(fbuffer, cutsmade,filename, ogfilesz - wrote, metainfo);
     }
+    free(fbuffer);
     metainfo->nfiles = cutsmade;
     printf("size %" PRIu64 "\n", ogfilesz);
     printf("wrote %" PRIu64 "\n", wrote);
@@ -26,8 +30,10 @@ void readcutf(char filename[], metadata * metainfo){
 }
 
 
-char * createfilename(char oldfilename[], uint64_t  cut){
-    char cutname[27],  * new_name, trans [] = "cuts/";
+char * createfilename(const char * oldfilename, uint64_t  cut){
+    char cutname[27];
+    char * new_name;
+    char trans [] = "cuts/";
     snprintf(cutname, 27, ".cut-%" PRIu64 ".rtf", cut);
     new_name = (char *)calloc(strlen(oldfilename) + strlen(cutname) + 1, sizeof(char));
     strcat(new_name, trans);
@@ -53,6 +59,7 @@ uint64_t writefile(const char fbuffer[], uint64_t cutsmade, char * filename, uin
     }
     char * name = createfilename(filename, cutsmade);
     FILE * newfile = fopen(name, "wb");
+    if(newfile == NULL) exit(-1);
     uint64_t wrote = fwrite(newbuff, 1, until, newfile);
     fclose(newfile);
     hash = makehexhash(createhash(newbuff, wrote));

@@ -4,12 +4,12 @@ void addnode(char new_name[] ,metadata * metainfo,  char * hash){
     filenode * new_node = (filenode *) calloc(1, sizeof(filenode *));
     new_node->filename = new_name;
     new_node->hash = hash;
-    if(metainfo->start == NULL){
+    if(!metainfo->start){
         metainfo->start = new_node;
         return;
     }
     filenode * aux = metainfo->start;
-    while (aux->next != NULL){
+    while (aux->next){
         aux = aux->next;
     }
     aux->next = new_node;
@@ -32,6 +32,7 @@ char * getnodehash(uint64_t index, filenode * node){
 
 void writemetaf(metadata * metainfo){
     FILE * metafile = fopen("meta.inf", "w");
+    if(!metafile)exit(1);
     fprintf(metafile, "%"PRIu64"\n",metainfo->size);
     fprintf(metafile, "%"PRIu64"\n", metainfo->nfiles);
     for(uint64_t i = 0; i <= metainfo->nfiles; i++){
@@ -40,12 +41,14 @@ void writemetaf(metadata * metainfo){
     fclose(metafile);
 }
 void readmetaf(metadata* metainfo){
-    FILE * metafile = fopen("meta.inf", "r");
     char buff [MAXSIZE];
-    char * filename, *hash;
+    char * filename;
+    char * hash;
+    FILE * metafile = fopen("meta.inf", "r");
+    if(!metafile)exit(1);
     fgets(buff, MAXSIZE, metafile);
     metainfo->size = strtoull(buff,&filename, 10);
-    memset(buff,0,strlen(buff));
+    memset(buff,0, MAXSIZE);
     fgets(buff, MAXSIZE, metafile);
     metainfo->nfiles = strtoull(buff, &filename, 10);
     for(uint64_t i = 0; i <= metainfo->nfiles; i++){
@@ -71,7 +74,7 @@ unsigned char * createhash(const char * buffer, uint64_t size){
     return md_value;
 }
 
-char * makehexhash(unsigned char * hash){
+char * makehexhash(const unsigned char * hash){
     char add[3];
     char * hexhash = (char *) calloc(HASHSIZE, sizeof(char *));
     for(int i=0; i < HASHSIZE; i++){

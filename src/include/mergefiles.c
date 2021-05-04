@@ -3,11 +3,12 @@
 void mergefiles(metadata * metainfo){
     uint64_t size;
     FILE * f = fopen("merge.jpg", "wb");
+    if(!f)exit(1);
     for(uint64_t i=0; i <= metainfo->nfiles; i++){
         char * fbuffer;
         filenode * node = getnode(i, metainfo->start);
         FILE *cutfile = fopen(node->filename, "rb");
-        if(cutfile==NULL) exit(1);
+        if(!cutfile) exit(1);
         size = getfilesz(cutfile);
         fbuffer = (char *) calloc(size, sizeof(char));
         fread(fbuffer, 1, size, cutfile);

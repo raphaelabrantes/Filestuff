@@ -35,6 +35,6 @@ void readmetaf(metadata* metainfo);
 char * getnodefile(uint64_t index, filenode * node);
 char * getnodehash(uint64_t index, filenode * node);
 unsigned char * createhash(const char * buffer, uint64_t size);
-char * makehexhash(unsigned char * hash);
+char * makehexhash(const unsigned char * hash);
 
 #endif //FILESTUFF_METAFILE_H
