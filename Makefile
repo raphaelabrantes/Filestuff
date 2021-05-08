@@ -1,6 +1,7 @@
 CC=gcc
 INCLUDE := $(shell find src/include/ -name "*.c" -o -name "*.h")
-OPENSSL=-I /usr/include/openssl -lssl -lcrypto
+LIBS := $(shell find src/libs/ -name "*.c" -o -name "*.h")
+OPENSSL=-I /usr/include/openssl -lssl -lcrypto -lcurl
 FLAGS=-Werror -Wpedantic -Wall
 
 build_run: clean build_A run compare
@@ -12,7 +13,7 @@ clean:
 	rm -f cuts/* merge.jpg foto.jpg Filestuff meta.inf
 
 build_A:
-	$(CC) src/main.c $(INCLUDE) $(OPENSSL) -o Filestuff $(FLAGS)
+	$(CC) src/main.c $(INCLUDE) $(LIBS) $(OPENSSL) -o Filestuff $(FLAGS)
 
 
 compare:
