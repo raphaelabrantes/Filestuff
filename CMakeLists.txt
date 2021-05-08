@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.13)
+project(Filestuff)
+set(CMAKE_C_STANDARD 99)
+
+file(GLOB_RECURSE SOURCE_FILES src/*)
+find_package(OpenSSL REQUIRED)
+find_package(CURL REQUIRED)
+add_executable(Filestuff ${SOURCE_FILES})
+target_link_libraries(Filestuff OpenSSL::SSL)
+target_link_libraries(Filestuff -lcurl)
