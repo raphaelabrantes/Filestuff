@@ -66,7 +66,7 @@ void readmetaf(metadata* metainfo){
 unsigned char * createhash(const char * buffer, uint64_t size){
     EVP_MD_CTX *mdctx = EVP_MD_CTX_new();
     unsigned char * md_value = (unsigned char *) calloc(EVP_MAX_MD_SIZE, sizeof(char *));
-    const EVP_MD *md = EVP_get_digestbyname("md5");
+    const EVP_MD *md = EVP_get_digestbyname("sha1");
     EVP_DigestInit_ex(mdctx, md, NULL);
     EVP_DigestUpdate(mdctx, buffer, size);
     EVP_DigestFinal_ex(mdctx, md_value, NULL);
