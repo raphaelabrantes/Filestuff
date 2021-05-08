@@ -36,7 +36,7 @@ char * createfilename(const char * oldfilename, uint64_t  cut){
     char trans [] = "cuts/";
     snprintf(cutname, 27, ".cut-%" PRIu64 ".rtf", cut);
     new_name = (char *)calloc(strlen(oldfilename) + strlen(cutname) + 1, sizeof(char));
-    strcat(new_name, trans);
+    strcpy(new_name, trans);
     strcat(new_name, oldfilename);
     strcat(new_name, cutname);
     return new_name;
@@ -51,7 +51,7 @@ uint64_t getfilesz(FILE * file){
     return size;
 }
 
-uint64_t writefile(const char fbuffer[], uint64_t cutsmade, char * filename, uint64_t until, metadata * metainfo){
+uint64_t writefile(const char fbuffer[], uint64_t cutsmade, const char * filename, uint64_t until, metadata * metainfo){
     char * newbuff = (char *) calloc(until, sizeof(char));
     char * hash;
     for(uint64_t i =0; i < until; i++){
